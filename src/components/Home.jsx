@@ -12,16 +12,9 @@ const db = getFirestore(firebaseApp);
 const Home = ({ correoUsuario }) => {
 
   const [subId] = useState();
-  const [photos, setPhotos ] = useState([]);
   const [archivoUrl, setArchivoUrl] = React.useState("");
   const [docus, setDocus] = React.useState([]);
   const [filterDatos] = useState("");
-
-  const addLike = (id) => {
-    const index = photos.findIndex((e) => e.id === id);
-    photos[index].liked = !photos[index].liked
-    setPhotos([...photos]);
-    }
 
   // Función para manejar la carga de archivos
   const archivoHandler = async (e) => {
