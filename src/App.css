@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.tamaño-imagen{
+  width: 100%;
+  height: 50%;
+  padding-bottom: 75%; /* Establece una relación de aspecto 4:3 */
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tamaño-imagen img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estilos para el título */
+.color-text {
+  color: #FF69B4; /* Cambia el color del texto a rosa */
+  font-size: 70px; /* Aumenta el tamaño de la fuente del título */
+  font-weight: bold; /* Hace el texto del título más negrita */
+  text-align: center; /* Centra el texto del título */
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; /* Agrega un borde negro alrededor del texto */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h4 {
+  font-size: 24px; /* Aumenta el tamaño de la fuente del subtítulo */
+  text-align: center; /* Centra el texto del subtítulo */
+}
+
+a {
+  color: #FF69B4 !important;
+}
+
+body {
+  background-color: rgb(244, 211, 211);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

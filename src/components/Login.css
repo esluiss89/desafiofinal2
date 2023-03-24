@@ -1,0 +1,39 @@
+/* Estilos para el encabezado */
+.login-header {
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilos para el título del encabezado */
+  .login-title {
+    height: 15vh;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos para el subtítulo del encabezado */
+  .login-subtitle {
+    color: #FF69B4;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos para el contenido */
+  .login-content {
+    margin-top: 3rem;
+  }
+  
+  /* Estilos para el carrusel */
+  .carousel {
+    height: 50vh;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
