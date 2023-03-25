@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Video desafio latam
+https://youtu.be/ZP2u--yjwZ8
+
 ## Available Scripts
 
 In the project directory, you can run:
